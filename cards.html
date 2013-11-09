@@ -1,0 +1,25 @@
+<html>
+<head>
+
+<style>
+
+body {
+
+	margin:0;
+	font-family: 'Arial', sans serif;
+	
+	}
+</style>
+</head>
+<body>
+
+<div style="width:900px;border:solid 1px black;padding:10px;" id="deckView">&nbsp;</div>
+
+<div style="border:solid 1px black;"><input type="button" id="shuffler" value="Shuffle Deck"> - <input type="button" id="dealer" value="Deal Cards"> - <input type="button" id="sorter" value="Sort Cards"> - <input type="button" id="shower" value="Show Cards">
+<br />Players To Add / Create  = <input id="playerCountInput"> : <input type="button" id="addPlayerButton" value="Add Players">
+<br /><div id="playerCountDisplay" style='display:inline;'>0</div> Players
+<br /><div style="width:1500px;border:solid 1px black;height:auto;" id="playerHands">&nbsp;</div>
+<script src="cards.js"></script>
+
+</body>
+</html>
